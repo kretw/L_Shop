@@ -1,0 +1,44 @@
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  entry: "./src/main.ts",
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+  resolve: {
+    extensions: [".tsx", ".ts", ".js"],
+  },
+  output: {
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+    }),
+  ],
+  devServer: {
+    static: "./dist",
+    port: 3001,
+    historyApiFallback: true,
+    proxy: [
+      {
+        context: ["/api"],
+        target: "http://localhost:3000",
+        changeOrigin: true,
+      },
+    ],
+  },
+};
