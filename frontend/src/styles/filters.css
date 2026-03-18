@@ -1,0 +1,49 @@
+.filters {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filters__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.filters__row--secondary {
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+}
+
+.filters__group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 160px;
+  flex: 1;
+}
+
+.filters__group--wide {
+  flex: 2;
+  min-width: 240px;
+}
+
+.filters__group--reset {
+  flex: 0;
+  min-width: auto;
+  justify-content: flex-end;
+}
+
+.filters__label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
