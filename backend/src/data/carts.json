@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1773756325199-6vapnme",
+    "userId": "1773756325198-g27ddxj",
+    "items": [
+      {
+        "productId": "prod-007",
+        "quantity": 5,
+        "priceAtAdd": 15000000
+      }
+    ],
+    "updatedAt": "2026-03-17T14:37:52.065Z"
+  },
+  {
+    "id": "1773756881955-ou640l0",
+    "userId": "1773756881955-53yleyx",
+    "items": [
+      {
+        "productId": "prod-002",
+        "quantity": 4,
+        "priceAtAdd": 10000000
+      }
+    ],
+    "updatedAt": "2026-03-17T14:15:12.069Z"
+  },
+  {
+    "id": "1773757073044-zws5wb7",
+    "userId": "1773757073044-cpbeyf6",
+    "items": [],
+    "updatedAt": "2026-03-17T14:17:53.044Z"
+  }
+]

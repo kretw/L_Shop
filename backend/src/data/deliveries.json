@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1773756453944-rvfwex3",
+    "userId": "1773756325198-g27ddxj",
+    "cartSnapshot": [
+      {
+        "productId": "prod-002",
+        "productName": "RD-180 Engine",
+        "quantity": 1,
+        "priceAtOrder": 10000000
+      },
+      {
+        "productId": "prod-003",
+        "productName": "Inertial Navigation Unit",
+        "quantity": 2,
+        "priceAtOrder": 850000
+      }
+    ],
+    "address": "г. Минск, ул. Косманавтов, д. 1",
+    "phone": "+7 327 327 32 74",
+    "email": "lizok@gmail.com",
+    "paymentMethod": "cash",
+    "totalPrice": 11700000,
+    "status": "pending",
+    "createdAt": "2026-03-17T14:07:33.944Z"
+  }
+]

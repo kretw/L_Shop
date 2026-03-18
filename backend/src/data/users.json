@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1773756325198-g27ddxj",
+    "username": "lizok",
+    "email": "liza@gmail.com",
+    "phone": "+7 234 345 54 32",
+    "passwordHash": "2233ea13633dfd3d654962c855f2d84fe2bd50808d484a410cee5495d7edb171",
+    "createdAt": "2026-03-17T14:05:25.199Z",
+    "cartId": "1773756325199-6vapnme"
+  },
+  {
+    "id": "1773756881955-53yleyx",
+    "username": "dfgdsgfdf",
+    "email": "endd@gmail.com",
+    "phone": "+7 432 432 43 67",
+    "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "createdAt": "2026-03-17T14:14:41.955Z",
+    "cartId": "1773756881955-ou640l0"
+  },
+  {
+    "id": "1773757073044-cpbeyf6",
+    "username": "sdadas",
+    "email": "kkds@mail.com",
+    "phone": "+7 432 434 43 23",
+    "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "createdAt": "2026-03-17T14:17:53.044Z",
+    "cartId": "1773757073044-zws5wb7"
+  }
+]
